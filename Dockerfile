@@ -21,7 +21,7 @@ RUN chown -R docker:docker /home/docker
 USER docker
 WORKDIR /home/docker
 
-ENV NODE_VERSION 10.15.3
+ENV NODE_VERSION 10.16.0
 ENV NVM_VERSION v0.34.0
 ENV NVM_DIR=/home/docker/.nvm
 RUN mkdir -p /home/docker/.nvm
