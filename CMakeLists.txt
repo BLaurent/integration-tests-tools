@@ -1,4 +1,8 @@
 cmake_minimum_required(VERSION 2.8)
+
+project(IntegationTestBuilder)
+
+
 SET(IMAGE_PATH ${CMAKE_CURRENT_SOURCE_DIR})
 SET(IMAGE_TAG "blaurent/integrations-tests-tools")
 SET(no_proxy predix.io,192.*,127.*,localhost,0.0.0.*)
